@@ -33,7 +33,7 @@ async def hype(ctx):
     
 @bot.command(name="fact")
 async def fact(ctx):
-    await ctx.send(random.choice(facts))
+    await ctx.send(random.choice(facts.factlist))
     
     
 @bot.command(name='choose',
