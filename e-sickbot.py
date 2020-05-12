@@ -8,7 +8,7 @@ import wolframalpha
 import keys
 
 bot = commands.Bot(command_prefix='!')
-svar = ["Ja", "Nej", "Definitivt", "Troligen", "Absolut", "Absolut inte", "Käften", "Garanterat", "Väldigt tveksam$
+svar = ["Ja", "Nej", "Definitivt", "Troligen", "Absolut", "Absolut inte", "Käften", "Garanterat", "Väldigt tveksamt"]
 
 wolfram = wolframalpha.Client(keys.wolfram)
 stored_answer = ""
